@@ -12,7 +12,7 @@
 
 4. **Ultrasonic Range Finder (HC-SR04)** :This simple yet reliable sensor measures distance using ultrasonic vibrations, and accurate up to 10 feet. We love this sensor because we can quickly capture data for easy visualization, just by waving our hand in front of it!
 
-5 **16GB Micro-SD Card and Micro-SD Card Reader** :Storage for your Raspberry Pi, plus a card reader so you can edit its contents on your computer.
+5. **16GB Micro-SD Card and Micro-SD Card Reader** :Storage for your Raspberry Pi, plus a card reader so you can edit its contents on your computer.
 
 6. **Perma-Proto Breadboard and Color-coded Wires** :For connecting the Ultrasonic Range Finder to your Raspberry Pi, without soldering anything.
 
@@ -20,3 +20,4 @@
 
 8. **USB-A to Micro-USB Cable** :To power your Raspberry Pi from your computer or other USB power source.
 
+- Download: [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7)
