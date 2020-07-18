@@ -19,3 +19,4 @@
 8. **USB-A to Micro-USB Cable** :To power your Raspberry Pi from your computer or other USB power source.
 
 Download: [Noobs](https://www.raspberrypi.org/downloads/noobs/)
+Download: [Noobs Link](https://downloads.raspberrypi.org/NOOBS_latest)
