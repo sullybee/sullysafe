@@ -1,5 +1,7 @@
 # SullySafe
 
+We made a comparison between different IoT providers. We learned that Soracom Cloud provides an updated Starter Kit. This made our decision a quick one since we wanted to make sure we can deliver a viable product for the sake of the competition. 
+
 ## List of Required Items: 
 
 ![Soracom Items](documentation/soracom.jpg)
