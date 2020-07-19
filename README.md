@@ -2,6 +2,8 @@
 
 ## List of Required Items: 
 
+![Soracom Items](documentation/soracom.jpg)
+
 1. **Soracom Air IoT SIM Card** :The Soracom IoT SIM provides cellular data connectivity and SMS functionality on 2G, 3G, and 4G/LTE networks in 135 countries around the world, fully managed right from your browser on the Soracom User Console.
 
 2. **Raspberry Pi Zero W and Official Case** :Super-small and easy-to-use, this tiny Linux computer supports a wide variety of programming environments to make developing your project a breeze, with a case to keep everything protected.
