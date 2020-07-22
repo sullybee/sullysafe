@@ -55,7 +55,7 @@ if __name__ == '__main__':
                 print ("sats ", gpsc.satellites)
 
 
-                with open('gpsdata.csv', 'a' ) as datafile: 
+                with open('data/gpsdata.csv', 'a' ) as datafile: 
                     writer_ = csv.writer(datafile, delimiter=',')
 
                     writer_.writerow([gpsc.fix.latitude,gpsc.fix.longitude])
