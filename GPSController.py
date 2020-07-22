@@ -2,6 +2,7 @@ from gps import *
 import time
 import threading
 import math
+import csv 
 
 class GpsController(threading.Thread):
     def __init__(self):
@@ -36,27 +37,36 @@ if __name__ == '__main__':
     try:
         # start controller
         gpsc.start()
+
+
         while True:
-            print ("latitude ", gpsc.fix.latitude)
-            print ("longitude ", gpsc.fix.longitude)
-            print ("time utc ", gpsc.utc, " + ", gpsc.fix.time)
-            print ("altitude (m)", gpsc.fix.altitude)
-            print ("eps ", gpsc.fix.eps)
-            print ("epx ", gpsc.fix.epx)
-            print ("epv ", gpsc.fix.epv)
-            print ("ept ", gpsc.gpsd.fix.ept)
-            print ("speed (m/s) ", gpsc.fix.speed)
-            print ("climb ", gpsc.fix.climb)
-            print ("track ", gpsc.fix.track)
-            print ("mode ", gpsc.fix.mode)
-            print ("sats ", gpsc.satellites)
-            time.sleep(0.5)
+                print ("latitude ", gpsc.fix.latitude)
+                print ("longitude ", gpsc.fix.longitude)
+                print ("time utc ", gpsc.utc, " + ", gpsc.fix.time)
+                print ("altitude (m)", gpsc.fix.altitude)
+                print ("eps ", gpsc.fix.eps)
+                print ("epx ", gpsc.fix.epx)
+                print ("epv ", gpsc.fix.epv)
+                print ("ept ", gpsc.gpsd.fix.ept)
+                print ("speed (m/s) ", gpsc.fix.speed)
+                print ("climb ", gpsc.fix.climb)
+                print ("track ", gpsc.fix.track)
+                print ("mode ", gpsc.fix.mode)
+                print ("sats ", gpsc.satellites)
+
+
+                with open('gpsdata.csv', 'a' ) as datafile: 
+                    writer_ = csv.writer(datafile, delimiter=',')
+
+                    writer_.writerow([gpsc.fix.latitude,gpsc.fix.longitude])
+
+                time.sleep(2)
+
     #Error
 
     #Ctrl C
     except KeyboardInterrupt:
         print ("User cancelled")
-
     except:
         print ("Unexpected error:", sys.exc_info()[0])
         raise
