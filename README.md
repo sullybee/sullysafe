@@ -25,3 +25,16 @@ We made a comparison between different IoT providers. We learned that Soracom Cl
 8. **USB-A to Micro-USB Cable** :To power your Raspberry Pi from your computer or other USB power source.
 
 - Download: [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7)
+
+# Quickstart 
+
+Main GPS API: 
+- GpsController(): Create controller 
+- start(): Starts controller 
+- fix.latitude: Reads latitude 
+- fix.longitude: Reads longitude 
+- stopController(): Stops controller 
+
+
+
+
