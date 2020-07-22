@@ -4,7 +4,7 @@ We made a comparison between different IoT providers. We learned that Soracom Cl
 
 ## List of Required Items: 
 
-![Soracom Items](documentation/soracom.jpg)
+![Soracom Items](doc/soracom.jpg)
 
 1. **Soracom Air IoT SIM Card** :The Soracom IoT SIM provides cellular data connectivity and SMS functionality on 2G, 3G, and 4G/LTE networks in 135 countries around the world, fully managed right from your browser on the Soracom User Console.
 
